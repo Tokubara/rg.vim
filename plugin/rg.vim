@@ -3,7 +3,7 @@ if exists('g:loaded_rg') || &cp
 endif
 
 if !exists("g:rg_default_options")
-  let g:rg_default_options = "--no-ignore-messages --no-messages -H --color never --no-heading --vimgrep"
+  let g:rg_default_options = " --no-ignore-messages --no-messages -H --color never --no-heading --vimgrep"
 endif
 
 " Location of the rg utility

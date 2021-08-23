@@ -39,7 +39,7 @@ function! rg#Rg(cmd, args) "{{{
   "       allow for passing arguments etc
   let l:escaped_args = escape(l:grepargs, '|#%')
 
-  echo "Searching ..."
+  " echo "Searching ..."
 
   call s:SearchWithGrep(a:cmd, l:grepprg, l:escaped_args, l:grepformat)
 
